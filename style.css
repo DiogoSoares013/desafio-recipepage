@@ -61,8 +61,14 @@ article p {
 .tempo h2 {
     padding: 10px;
     color: hsl(332, 51%, 32%);
+    font-size: 1.2em;
+    text-align: left;
+}
+ul {
+    list-style-position: inside;
 }
 .tempo li {
     color: black;
+    padding-left: 10px;
     
 }
