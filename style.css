@@ -76,7 +76,8 @@ strong{
 }
 .marrom{
     color: hsl(30, 10%, 34%);
-    display: inline-block;
+    display: inline;
+    font-weight: normal;
 }
 .tempo li {
     color: black;
@@ -101,4 +102,39 @@ hr {
     padding: 8px 0px 8px 0px ;
     color:hsl(14, 45%, 36%) ;
     
+}
+.instrucoes h2{
+    color: hsl(14, 45%, 36%);
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.instrucoes ol{
+    padding: 20px;
+    font-weight: bold;
+    
+}
+.instrucoes li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: hsl(14, 45%, 36%); 
+}
+.nutricao h2{
+    color: hsl(14, 45%, 36%);
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    font-size: 2em;
+}
+.nutricao p {
+    padding: 10px 0px 10px 0px;
+}
+.numero {
+    color: hsl(14, 45%, 36%);
+    
+}
+.texto {
+    padding: 0px;
+    margin: 0px;
+    display: inline;
 }
